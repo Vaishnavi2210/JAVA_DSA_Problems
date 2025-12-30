@@ -18,3 +18,7 @@ public class Difference_of_Sums {
         System.out.println(" Output "+ sum);
     }
 }
+
+// Time Complexity = O(n)
+// Space Complexity = O(1)
+
