@@ -19,7 +19,8 @@ public class Difference_of_Sums {
            if(i % n == 0){
                sum1 = sum1 + i;
            }
-           sum2 = sum2 + i;if(i % m == 0){
+           sum2 = sum2 + i;
+           if(i % m == 0){
                sum2 = sum2+ i;
             }
        }

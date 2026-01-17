@@ -6,11 +6,10 @@ public class Operation_Choices {
         1 -> a+b   2-> a-b   3-> a*b   4-> a/b
         Input: a=10; b=5, (c =3 -case)    Output: 50
          */
-
         int a = 10, b = 5, c = 3;
 
-
-
+        int result = calculate(a, b, c);
+        System.out.println(result);
     }
 
     static int calculate(int a, int b, int c){
@@ -23,8 +22,6 @@ public class Operation_Choices {
                 else  throw new ArithmeticException("Divisible by 0");
             default:
                 throw new IllegalArgumentException("Invalid operation "+ c);
-
-
 
         }
     }

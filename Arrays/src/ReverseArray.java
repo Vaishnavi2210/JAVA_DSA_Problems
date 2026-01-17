@@ -24,7 +24,7 @@ public class ReverseArray {
         }
     }
     public static void  reverse(int[] arr){
-        int start = 0;                                   // for(int start =0, end = arr.length-1; start < end; start++, end--){}
+        int start = 0;                         // for(int start =0, end = arr.length-1; start < end; start++, end--){}
         int  end = arr.length-1;
        while(start < end){
            int temp = arr[start];

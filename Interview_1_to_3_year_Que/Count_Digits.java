@@ -1,4 +1,4 @@
-public class Check_Prime_Number {
+public class Count_Digits {
     public static void main(String[] args) {
 
     }
